@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Quiz</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>JavaScript Quiz</h1>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <h3>JavaScript Variables</h3>
+            <p>Which keyword is used to declare a variable in JavaScript?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q1" value="a"> a) var</div>
+                <div class="option"><input type="radio" name="q1" value="b"> b) variable</div>
+                <div class="option"><input type="radio" name="q1" value="c"> c) v</div>
+                <div class="option"><input type="radio" name="q1" value="d"> d) declare</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Arrays</h3>
+            <p>How do you access the first element of an array?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q2" value="a"> a) array.first()</div>
+                <div class="option"><input type="radio" name="q2" value="b"> b) array[0]</div>
+                <div class="option"><input type="radio" name="q2" value="c"> c) array(1)</div>
+                <div class="option"><input type="radio" name="q2" value="d"> d) array.one</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Functions</h3>
+            <p>How do you declare a function in JavaScript?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q3" value="a"> a) function myFunction()</div>
+                <div class="option"><input type="radio" name="q3" value="b"> b) def myFunction()</div>
+                <div class="option"><input type="radio" name="q3" value="c"> c) func myFunction()</div>
+                <div class="option"><input type="radio" name="q3" value="d"> d) void myFunction()</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Loops</h3>
+            <p>Which loop will execute at least once?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q4" value="a"> a) for loop</div>
+                <div class="option"><input type="radio" name="q4" value="b"> b) while loop</div>
+                <div class="option"><input type="radio" name="q4" value="c"> c) do-while loop</div>
+                <div class="option"><input type="radio" name="q4" value="d"> d) forEach loop</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Events</h3>
+            <p>Which event occurs when a user clicks on an HTML element?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q5" value="a"> a) onmouseover</div>
+                <div class="option"><input type="radio" name="q5" value="b"> b) onchange</div>
+                <div class="option"><input type="radio" name="q5" value="c"> c) onmouseclick</div>
+                <div class="option"><input type="radio" name="q5" value="d"> d) onclick</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Data Types</h3>
+            <p>Which is not a primitive data type in JavaScript?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q6" value="a"> a) string</div>
+                <div class="option"><input type="radio" name="q6" value="b"> b) boolean</div>
+                <div class="option"><input type="radio" name="q6" value="c"> c) array</div>
+                <div class="option"><input type="radio" name="q6" value="d"> d) number</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Operators</h3>
+            <p>What is the strict equality operator in JavaScript?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q7" value="a"> a) =</div>
+                <div class="option"><input type="radio" name="q7" value="b"> b) ==</div>
+                <div class="option"><input type="radio" name="q7" value="c"> c) ===</div>
+                <div class="option"><input type="radio" name="q7" value="d"> d) ====</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript Objects</h3>
+            <p>How do you access object properties in JavaScript?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q8" value="a"> a) object->property</div>
+                <div class="option"><input type="radio" name="q8" value="b"> b) object.property</div>
+                <div class="option"><input type="radio" name="q8" value="c"> c) object::property</div>
+                <div class="option"><input type="radio" name="q8" value="d"> d) object=>property</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript String Methods</h3>
+            <p>Which method is used to find the length of a string?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q9" value="a"> a) length()</div>
+                <div class="option"><input type="radio" name="q9" value="b"> b) size()</div>
+                <div class="option"><input type="radio" name="q9" value="c"> c) length</div>
+                <div class="option"><input type="radio" name="q9" value="d"> d) count()</div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>JavaScript DOM</h3>
+            <p>Which method is used to select an element by its ID?</p>
+            <div class="options">
+                <div class="option"><input type="radio" name="q10" value="a"> a) getElementById()</div>
+                <div class="option"><input type="radio" name="q10" value="b"> b) querySelector()</div>
+                <div class="option"><input type="radio" name="q10" value="c"> c) selectElement()</div>
+                <div class="option"><input type="radio" name="q10" value="d"> d) findElement()</div>
+            </div>
+        </div>
+        <button class="submit-btn" onclick="calculateResult()">Submit Quiz</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
